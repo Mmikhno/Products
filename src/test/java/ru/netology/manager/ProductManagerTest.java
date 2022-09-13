@@ -17,7 +17,7 @@ public class ProductManagerTest {
     Book book2 = new Book(2, "Book2", 250, "Author2");
     Smartphone smart3 = new Smartphone(3, "Smartphone3", 10_000, "producer1");
     Smartphone smart4 = new Smartphone(4, "Smartphone4", 15_000, "Producer2");
-    Smartphone smart5 = new Smartphone(4, "Smartphone5", 15_000, "Producer3");
+    Smartphone smart5 = new Smartphone(5, "Smartphone5", 15_000, "Producer3");
 
     @Test
     public void shouldAddNewProduct() {
